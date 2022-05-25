@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Chronometer
+        android:id="@+id/chronometer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:gravity="center_horizontal"
+        android:textSize="60dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="70dp"
+        android:gravity="center_horizontal">
+        <!-- layout_alignParentBottom: 바닥에 붙게배치-->
+
+        <Button
+            android:id="@+id/btn_start"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:text="Start"
+            android:textStyle="bold"/>
+        <Button
+            android:id="@+id/btn_stop"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="Stop"
+            android:textStyle="bold"/>
+        <Button
+            android:id="@+id/btn_reset"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="Reset"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+
+</RelativeLayout>
