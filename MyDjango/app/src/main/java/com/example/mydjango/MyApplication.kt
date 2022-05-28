@@ -4,7 +4,7 @@ import android.app.Application
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
 
-class MyApplication: Application {
+class MyApplication: Application() {
     companion object {
         var apiService : ApiService
         val retrofit : Retrofit
